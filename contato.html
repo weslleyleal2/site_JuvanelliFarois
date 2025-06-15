@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/logo-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+     <header>
+<nav>
+    <a href="index.html" title="Home" alt="Home">Home</a>
+    <a href="fotos.html" title="imagens" alt="imagens">Fotos</a>
+    <a href="quemsomos.html" title="Quem Somos" alt="contato">Quem Somos </a>
+    
+</nav>
+</header>
+<aside>
+        <h1>Formulário de Contato</h1>
+        <form name="form-cadastro" method="post" action=""><!--get aparece na barra de endereço,serve para google e youtube. post nao aparece. -->
+    <label for="name">Digite seu nome: </label>
+         <input type="text" name="nome" id="nome" size="50" maxlength="40" placeholder=" nome completo   " autocomplete="off" required class="formulario"><br>
+
+    <label for="email">digite seu email</label><br>
+        <input type="email" name="email" id="email" size="50" maxlength="40" placeholder=" digite um email valido  "
+         autocomplete="off" required class="formulario" inputmode="email"><br>
+     <label for="telefone">Telefone</label><br>
+            <input type="tel" id="telefone" name="telefone" maxlength="15" placeholder="(XX) XXXXX-XXXX" autocomplete="off"
+             required class="formulario" ><br>  
+            </div>
+    <label for="mensagem">Digite sua Mensagem</label>
+    <textarea name="mensagem" id="mensagem" required placeholder="digite sua mensagem" class="formulario" rows="5"></textarea><br><br>
+<!--textarea é para msg e rows é para o tanto de linhas-->
+
+<button type="submit" class="btn-submit">enviar dados</button>
+<button type="reset" class="btn-reset">redefinir</button>
+<br></aside>
+<footer><p>
+    &copy; 2025 Juvanelli Faróis. Todos os direitos reservados.
+   
+  </p></footer>
+
+<!-- placeholder é para aparecer o a frase no formulário, id tem que ser o mesmo do for, maxlength é qnt de caracteres, input é o modo que vai salvar.-->
+
+        
+
+    
+</body>

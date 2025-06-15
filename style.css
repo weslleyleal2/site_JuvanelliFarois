@@ -1,0 +1,148 @@
+@media screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    
+}
+ /* barra de navegação */
+nav{
+    background: rgb(240, 137, 64);
+    color: #fff;
+    padding: 15px 10px 15px 10px;
+    text-align: left;
+    border-radius: 0 0 2px 2px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+
+}
+nav a:hover{
+    background: #994edf;
+    color: #fff;
+}
+h1{
+    font-size: 24px;
+    color: #ffffff;
+        margin-bottom: 20px;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    margin: 0 20px 20px 20px;
+}
+
+body{
+    background: #180352;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  
+}
+.destaque{
+    color: rgb(240, 137, 64);
+}
+
+footer{
+   
+    margin-top: auto;
+
+    background: rgb(240, 137, 64);;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+}
+    .foto {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.foto img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.foto:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.imagens {
+    max-width: 1920px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    background: linear-gradient(120deg, #0b1d46 60%, #102a6d 100%);
+    padding: 40px 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+}
+.foto:hover img{
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    transform: scale(1.4);
+    z-index: 1.4;
+}
+label{
+    font-weight: bold; 
+
+
+}
+.formulario {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+ 
+}
+label, .formulario {
+    margin: 10px 0;
+}
+
+.btn-submit, .btn-reset {
+    border: none;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    color: #050000;
+}
+.btn-reset:hover {
+    background: #e90909;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-submit:hover {
+    background: #06be25;
+    color: #fff;
+    cursor: pointer;
+}
+.digitação {
+    background: #eea24b;
+    
+}
+   
